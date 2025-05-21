@@ -1,3 +1,5 @@
+"use server"
+
 import { Box, Flex, Grid, Text } from '@chakra-ui/react'
 import Image from 'next/image'
 import { CustomButton } from '@/app/components/CustomButton'

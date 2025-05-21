@@ -1,3 +1,5 @@
+"use server"
+
 import { Box, Flex, Grid } from '@chakra-ui/react'
 import Navigation from '@/app/components/Nav'
 // import {
