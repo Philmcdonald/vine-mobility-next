@@ -30,7 +30,7 @@ const Platform = () => {
             mt={{ base: '-30px', xl: '-30px' }}
             display={{ base: 'none', lg: 'block' }}
           >
-            <Image src={graphic2} />
+            <Image src={graphic2} alt=''/>
           </Box>
         </Grid>
 

@@ -26,28 +26,28 @@ const Sponsor = () => {
         justify={'center'}
       >
         <Box>
-          <Image src={brand1} height={30} />
+          <Image src={brand1} height={30} alt='' />
         </Box>
         <Box>
-          <Image src={brand2}  height={30}/>
+          <Image src={brand2}  height={30} alt=''/>
         </Box>
         <Box>
-          <Image src={brand3} height={30} />
+          <Image src={brand3} height={30} alt='' />
         </Box>
         <Box>
-          <Image src={brand4} height={30} />
+          <Image src={brand4} height={30}  alt=''/>
         </Box>
         <Box>
-          <Image src={brand5} height={30} />
+          <Image src={brand5} height={30} alt=''/>
         </Box>
         <Box>
-          <Image src={brand6} height={30} />
+          <Image src={brand6} height={30} alt=''/>
         </Box>
         <Box>
-          <Image src={brand7} height={30} />
+          <Image src={brand7} height={30} alt=''/>
         </Box>
         <Box>
-          <Image src={brand8} height={30} />
+          <Image src={brand8} height={30} alt=''/>
         </Box>
       </Grid>
     </Wrapper>

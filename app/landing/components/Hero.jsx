@@ -53,7 +53,7 @@ const Hero = () => {
             w={{ base: '98%', md: '100%' }}
           >
             <MainHeading>
-              Comprehensive Software for EV Charging Businesses
+              Monetize and Manage EV Charging All From One Platform.
             </MainHeading>
 
             <Text
@@ -61,17 +61,15 @@ const Hero = () => {
               my={{ base: '30px', lg: '20px', xl: '25px' }}
               mb={{ base: '35px' }}
             >
-              Vine Mobility&apos;s software forms the technological foundation
-              that connects hardware to users, enabling seamless EV charging
-              experiences, while giving operators complete control over their
-              charging ecosystems.
+              Vine Mobility&apos;s software helps you turn EV chargers into revenue-generating
+              stations, whether you are running one or one hundred
             </Text>
 
-            <CustomButton btnText="Contact us" color="#fff" />
+            <CustomButton btnText="Book a Demo" color="#fff" />
           </Flex>
 
           <Box w={{ lg: '500px' }}>
-            <Image src={graphic1}  />
+            <Image src={graphic1}  alt=''/>
           </Box>
         </Grid>
       </Wrapper>

@@ -1,7 +1,5 @@
 import { Box, Flex, Grid, Text } from '@chakra-ui/react'
-
 import logoB from "../../public/assets/logoB.png"
-
 import { FaFacebook } from 'react-icons/fa'
 import { BsInstagram, BsTwitter } from 'react-icons/bs'
 import { LiaLinkedin } from 'react-icons/lia'

@@ -64,7 +64,7 @@ const WhyCharge = () => {
         pb={{ base: '30px', xl: '50px' }}
       >
         <Box>
-          <Image src={chargeMobile} />
+          <Image src={chargeMobile}  alt=''/>
         </Box>
 
         <Box>
