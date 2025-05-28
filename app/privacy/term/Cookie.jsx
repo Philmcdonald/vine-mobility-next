@@ -211,13 +211,13 @@ const Cookie = () => {
               <ListItem>
                 <Link
                   href="https://support.google.com/accounts/answer/32050"
-                  isExternal
+                  
                 >
                   For the Chrome web browser, please visit this page from Google
                 </Link>
               </ListItem>
               <ListItem>
-                <Link href="http://support.microsoft.com/kb/278835" isExternal>
+                <Link href="http://support.microsoft.com/kb/278835" >
                   For the Internet Explorer web browser, please visit this page
                   from Microsoft
                 </Link>
@@ -225,7 +225,7 @@ const Cookie = () => {
               <ListItem>
                 <Link
                   href="https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored"
-                  isExternal
+                  
                 >
                   For the Firefox web browser, please visit this page from
                   Mozilla
@@ -234,7 +234,7 @@ const Cookie = () => {
               <ListItem>
                 <Link
                   href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac"
-                  isExternal
+                  
                 >
                   For the Safari web browser, please visit this page from Apple
                 </Link>
@@ -278,12 +278,12 @@ const Cookie = () => {
             </Heading>
             <Text mb={4}>
               You can learn more about cookies at websites like
-              <Link href="https://www.allaboutcookies.org/" isExternal>
+              <Link href="https://www.allaboutcookies.org/" >
                 {' '}
                 www.allaboutcookies.org
               </Link>{' '}
               or
-              <Link href="https://www.cookiesandyou.com/" isExternal>
+              <Link href="https://www.cookiesandyou.com/">
                 {' '}
                 www.cookiesandyou.com
               </Link>
@@ -306,7 +306,7 @@ const Cookie = () => {
               </ListItem>
               <ListItem>
                 By visiting this page on our website:{' '}
-                <Link href="http://www.vinemobility.com/contact" isExternal>
+                <Link href="http://www.vinemobility.com/contact">
                   www.vinemobility.com/contact
                 </Link>
               </ListItem>

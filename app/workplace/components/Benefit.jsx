@@ -31,6 +31,7 @@ const Benefit = () => {
             return (
               <Box color={'#fff'} key={title}>
                 <Image
+                 alt=''
                   src={img}
                   height={40}
                   mb={{ base: '10px', md: '' }}

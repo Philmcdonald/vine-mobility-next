@@ -29,7 +29,7 @@ const Hero = () => {
           </CustomText>
         </Box>
         <Flex justify={'center'} my={{ base: '', xl: '50px' }}>
-          <Image src={AboutImage} alt='' height={500} borderRadius={'20px'} />
+          <Image src={AboutImage} alt='' height={500}  />
         </Flex>
       </Wrapper>
     </Box>

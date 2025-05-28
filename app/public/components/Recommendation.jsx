@@ -37,7 +37,7 @@ const Recommendation = () => {
             transition="transform 0.5s ease" // Smooth transition for the rotation
             _hover={{ transform: 'scale(1.1)' }} // Rotate by 90 degrees on hover
           >
-            <Image mx={'auto'} src={charger1}  h={200} />
+            <Image mx={'auto'} src={charger1} alt=''  h={200} />
             <Text fontSize={'20px'} fontWeight={'bold'} py="10px">
               Wallbox Supernova
             </Text>

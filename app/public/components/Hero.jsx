@@ -37,7 +37,7 @@ const Hero = () => {
             </Flex>
           </Box>
           <Box  >
-            <Image src={pic} alt='' height={400}  borderRadius="20px"   />
+            <Image src={pic} alt='' height={400}    />
           </Box>
         </Grid>
       </Wrapper>
