@@ -141,14 +141,14 @@ function NavigationOptions({ title, color, iconColor }) {
                   </Text>
                 </Link>
 
-                {/* <Link href="/">
+                <Link href="/blog">
                   <Text
                     _hover={{ color: '#8fc03f' }}
                     transition="all 0.3s ease"
                   >
                     Blog
                   </Text>
-                </Link> */}
+                </Link>
 
                 <Link href={'/privacy'}>
                   <Text
