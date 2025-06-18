@@ -50,11 +50,12 @@ function NavigationOptions({ title, color, iconColor }) {
             setShow(false)
           }}
           position={'absolute'}
-          p={'15px'}
-          top="40px"
+          p={'10px'}
+          top="20px"
           w={title.toLowerCase() === 'products' ? '300px' : '300px'}
-          boxShadow={'2px 2px 4px gray'}
-          borderRadius="10px"
+          // boxShadow={'1px 1px 1px gray'}
+          boxShadow={"sm"}
+          borderRadius="8px"
           justifyContent={'space-between'}
           zIndex={999}
         >
@@ -64,7 +65,7 @@ function NavigationOptions({ title, color, iconColor }) {
               display={['none', 'none', 'none', 'flex']}
               w={'100%'}
             >
-              <Box w={'100%'} flex={1.5} py="20px" borderRadius={'10px'}>
+              <Box w={'100%'} flex={1.5} py="10px" borderRadius={'10px'}>
                 <Text
                   fontSize={'12px'}
                   pb={'20px'}
@@ -102,7 +103,7 @@ function NavigationOptions({ title, color, iconColor }) {
             <Box
               display={['none', 'none', 'none', 'block']}
               w="100%"
-              py={'20px'}
+              py={'10px'}
               h={'fit-content'}
             >
               <Flex color={'#000'} flexDir={'column'} gap={'20px'}>
@@ -128,7 +129,7 @@ function NavigationOptions({ title, color, iconColor }) {
             <Box
               display={['none', 'none', 'none', 'block']}
               w="100%"
-              py={'20px'}
+              py={'10px'}
               h={'fit-content'}
             >
               <Flex color={'#000'} flexDir={'column'} gap={'20px'}>
@@ -164,7 +165,7 @@ function NavigationOptions({ title, color, iconColor }) {
             <Box
               display={['none', 'none', 'none', 'block']}
               w="100%"
-              py={'20px'}
+              py={'10px'}
               h={'fit-content'}
             >
               <Flex color={'#000'} flexDir={'column'} gap={'20px'}>

@@ -22,7 +22,7 @@ const Navigation = ({
   return (
     <Box
       fontFamily={'Inter, sans-serif'}
-      fontWeight="500"
+      fontWeight={'500'}
       fontSize={['.9em', '1.1em']}
       bg={bg}
       dropShadow={'dark-lg'}

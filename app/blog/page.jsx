@@ -6,7 +6,7 @@ import Posts from './components/Posts'
 
 const Index = () => {
   return (
-    <Box>
+    <Box >
         <Hero />
         <Posts />
     </Box>
