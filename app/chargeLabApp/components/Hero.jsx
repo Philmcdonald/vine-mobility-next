@@ -1,3 +1,5 @@
+"use client"
+
 import { Box, Button, Flex, Grid} from '@chakra-ui/react'
 import Image from 'next/image'
 import Navigation from '@/app/components/Nav'
@@ -28,7 +30,7 @@ const Hero = () => {
           <Box maxW={'600px'}>
             <MainHeading>Download the VineVolt Driver&apos;s App</MainHeading>
             <CustomText py={{ base: '20px', xl: '20px' }} maxW={'400px'}>
-              Click a button below to get the VineVolt Driver&apos;s app for iOS
+              Click the button below to get the VineVolt Driver&apos;s app for iOS
               or Android.
             </CustomText>
             <Flex mt="20px" align={'center'} gap={'20px'}>
@@ -37,19 +39,16 @@ const Hero = () => {
                 p={'0px'}
                 bg="transparent"
                 _hover={{ bg: 'transparent', border: 'none' }}
+                onClick={()=>{
+                  alert("coming soon")
+                }}
               >
                 <Image height={{ base: '4rem', xl: '5rem' }} src={google} alt='' />
               </Button>
             </Flex>
           </Box>
           <Box mt={{ base: '30px', xl: '-20px' }}>
-            {/* <Image
-              mt={{ xl: '-100px' }}
-              transform={{ base: '', xl: 'rotate(30deg)' }}
-              height={{ base: '', xl: '60rem' }}
-              src={mobile}
-              alt=''
-            /> */}
+           
             
 <Box
   mt={{ xl: '-100px' }}
@@ -61,9 +60,9 @@ const Hero = () => {
   <Image
     src={mobile}
     alt="mobile"
-    width={500}
-    height={800}
-    style={{ objectFit: 'contain' }}
+    width={400}
+    height={400}
+    // style={{ objectFit: 'contain' }}
   />
 </Box>
           </Box>

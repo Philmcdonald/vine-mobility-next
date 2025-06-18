@@ -27,7 +27,8 @@ export const CustomButton = ({
 }) => {
   const router= useRouter()
 
-  const onClickHandler = () => {
+  const onClickHandler = (e) => {
+    e.preventDefault()
     if (type === 'submit') {
       router.push('/')
     } else {
@@ -45,7 +46,7 @@ export const CustomButton = ({
       bg={bg || '#000'}
       color={color || '#fff'}
       _hover={{ hover }}
-      onClick={onClick}
+      onClick={onClick || onClickHandler}
       borderRadius={borderRadius || '50px'}
       border={border}
       mt={mt || { lg: '10px' }}

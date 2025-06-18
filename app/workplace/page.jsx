@@ -1,10 +1,13 @@
+// import dynamic from 'next/dynamic'
 import { Box } from '@chakra-ui/react'
 import Hero from './components/Hero'
 import Benefit from './components/Benefit'
 import Recommendation from './components/Recommendation'
-import Form from './components/Form'
 import ChargeImg from './components/ChargeImg'
+import FormWrapper from '../components/FormWrapper'
 
+
+// const Form = dynamic(() => import('./components/Form'), { ssr: false });
 
 const WorkPlace = () => {
   return (
@@ -12,7 +15,7 @@ const WorkPlace = () => {
       <Hero />
       <Benefit />
       <Recommendation />
-      <Form />
+      <FormWrapper />
       <ChargeImg />
     </Box>
   )

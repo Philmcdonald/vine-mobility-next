@@ -34,27 +34,28 @@ const Posts = () => {
       justifyContent={"center"}
       h={"fit-content"}
     >
-      <Text fontSize={"40px"} fontWeight={"bold"}>
+      <Text fontSize={["25px","25px","25px","40px"]} fontWeight={"bold"}>
         Latest Posts{" "}
       </Text>
-      <Flex my={"50px"} align={"start"} gap={"50px"}>
+      <Flex my={["20px","20px","20px","50px"]} align={"start"} gap={["20px","20px","20px","50px"]} flexDir={["column-reverse", "column-reverse", "column-reverse", "row"]}>
         <Box>
           {posts.map((post) => (
             <Flex
               key={post?.id}
               align={"center"}
+              flexDir={["column", "column", "column", "row"]}
               mb="30px"
-              p={"50px"}
+              p={["20px","20px","20px","50px"]}
               w={"fit-content"}
               cursor={"pointer"}
               borderRadius={"20px"}
               _hover={{boxShadow:"xl"}}
             >
               <Box maxW={"400px"}>
-                <Text fontSize={"30px"} fontWeight={"bold"}>
+                <Text fontSize={["20px","20px","20px","30px"]} fontWeight={"bold"}>
                   {post?.topic}
                 </Text>
-                <Text fontWeight={"medium"} color={"#ccc"} py="20px">
+                <Text fontWeight={"medium"} color={"#ccc"} py={["5px","5px","5px","20px"]}>
                   {post?.date}
                 </Text>
                 <CustomButton
@@ -72,8 +73,9 @@ const Posts = () => {
             </Flex>
           ))}
         </Box>
+
         <Box borderRadius={"10px"} bg={"#fff"} p="20px" boxShadow={"md"} h={"fit-content"} w={"300px"} >
-            <Text fontSize={"30px"} fontWeight={"bold"}>Posts by Topic</Text>
+            <Text fontSize={["20px","20px","20px","30px"]} fontWeight={"bold"}>Posts by Topic</Text>
 
             <Box mt="20px" fontWeight={"bold"}>
                 <Flex align={"center"} justify={"space-between"}>

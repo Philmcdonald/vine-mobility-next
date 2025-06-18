@@ -13,17 +13,17 @@ const Blog1 = () => {
       h={"fit-content"}
     >
       <Navigation />
-      <Box mt="50px">
+      <Box mt={["20px","20px","20px","50px"]}>
         <Text
           fontWeight={"bold"}
-          fontSize={"50px"}
+          fontSize={["25px","25px","25px","50px"]}
           maxW={"800px"}
           textAlign={"center"}
           margin={"auto"}
         >
           How to build a profitable EV charger business: the first 100 days
         </Text>
-        <Text textAlign={"center"} py="10px">
+        <Text textAlign={"center"} py={["5px","5px","5px","10px"]}>
           16, June 2025
         </Text>
 

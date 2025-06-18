@@ -18,12 +18,12 @@ const Hero = () => {
       h={"fit-content"}
     >
       <Navigation />
-      <Box mt="50px">
-        <Flex justify={"space-between"} align={"center"}>
+      <Box mt={["30px", "30px", "30px", "50px"]} >
+        <Flex justify={"space-between"} flexDir={["column","column","column","row"]} align={"center"} gap={["20px","20px","20px","0px"]}>
           <Text fontWeight={" bold"} fontSize={"20px"}>
             Featured Blog Posts
           </Text>
-          <Flex align={"center"} gap={"30px"}>
+          <Flex align={"center"} gap={["10px","10px","10px","30px"]} flexDir={["column", "column", "column", "row"]}>
             <CustomButton
               btnText={"VineMobility on Twitter"}
               color={"teal"}
@@ -42,16 +42,17 @@ const Hero = () => {
           //   h={"400px"}
           bg={"#fff"}
           borderRadius={"20px"}
-          p={"50px"}
+          p={["20px","20px","20px","50px"]}
           align={"center"}
           justify={"space-between"}
+          flexDir={["column", "column", "column", "row"]}
           my="50px"
         >
-          <Box maxW={"550px"}>
-            <Text fontWeight={"bold"} fontSize={"40px"}>
+          <Box maxW={["fit-content","fit-content","fit-content","550px"]}>
+            <Text fontWeight={"bold"} fontSize={["25px","25px","25px","40px"]}>
               How to build a profitable EV charger business: the first 100 days
             </Text>
-            <Text py="20px" fontWeight={"medium"} color={"#ccc"}>
+            <Text py={["10px","10px","10px","20px" ]}fontWeight={"medium"} color={"#ccc"}>
               June, 16 2025
             </Text>
             <Text fontWeight={"medium"} pb="10px">
