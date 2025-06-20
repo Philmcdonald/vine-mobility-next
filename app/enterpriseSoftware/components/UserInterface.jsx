@@ -1,12 +1,15 @@
+"use client"
+
+
 import { Box, Grid, Text } from '@chakra-ui/react'
 import Image from 'next/image'
 
 import u3 from '../../../public/assets/u3.svg'
 
-import { CustomButton } from '@/app/components/CustomButton'
-import CustomText from '@/app/components/CustomText'
-import SubHeading from '@/app/components/SubHeading'
-import Wrapper from '@/app/components/Wrapper'
+import { CustomButton } from '@/components/CustomButton'
+import CustomText from '@/components/CustomText'
+import SubHeading from '@/components/SubHeading'
+import Wrapper from '@/components/Wrapper'
 import { userInterface } from '../data'
 import Link from 'next/link'
 

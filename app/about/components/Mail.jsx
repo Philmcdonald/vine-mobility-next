@@ -1,8 +1,7 @@
 import { Box, Grid, Text } from '@chakra-ui/react'
 import Image from 'next/image'
 import ladder from '../../../public/assets/ladder.svg'
-// import { Wrapper } from '../../../components'
-import Wrapper from '@/app/components/Wrapper'
+import Wrapper from '@/components/Wrapper'
 
 const Mail = () => {
   return (

@@ -1,3 +1,5 @@
+"use client"
+
 import {
   Accordion,
   AccordionButton,
@@ -17,7 +19,7 @@ const Cookie = () => {
       allowMultiple
     >
       <AccordionItem
-        bg={'#f7f7f7f'}
+        bg={'#f7f7f7'}
         rounded={'lg'}
         p={'5px'}
         py={{ xl: '15px' }}

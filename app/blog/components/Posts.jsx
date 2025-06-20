@@ -1,8 +1,10 @@
+"use client";
+
 import { Box, Flex, Text } from "@chakra-ui/react";
 import Image from "next/image";
 import React from "react";
 import flexImg from "../../../public/assets/flexImg.jpg"
-import {CustomButton } from "@/app/components/CustomButton";
+import {CustomButton } from "@/components/CustomButton";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const posts = [

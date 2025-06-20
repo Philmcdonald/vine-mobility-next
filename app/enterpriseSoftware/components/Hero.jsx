@@ -1,15 +1,17 @@
+"use client"
+
 import { Box, Flex} from '@chakra-ui/react'
 import Image from 'next/image'
-import Navigation from '@/app/components/Nav'
-import { CustomButton } from '@/app/components/CustomButton'
+import Navigation from '@/components/Nav'
+import { CustomButton } from '@/components/CustomButton'
 // import enterprise1 from '../../../assets/enterprise1.webp'
 // import enterprise2 from '../../../assets/enterprise2.webp'
 import vineCharge from '../../../public/assets/vineCharge.png'
 import logoB from '../../../public/assets/logoB.png'
-import CustomText from '@/app/components/CustomText'
+import CustomText from '@/components/CustomText'
 // import { Wrapper, MainHeading } from '../../../components'
-import Wrapper from '@/app/components/Wrapper'
-import MainHeading from '@/app/components/MainHeader'
+import Wrapper from '@/components/Wrapper'
+import MainHeading from '@/components/MainHeader'
 
 const Hero = () => {
   return (

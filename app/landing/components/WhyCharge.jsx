@@ -1,12 +1,15 @@
+"use client"
+
+
 import { Box, Grid } from '@chakra-ui/react'
 import Image from 'next/image'
 import chargeMobile from '../../../public/assets/mobile.png'
 // import chargeDashboard from '../../../public/assets/vineCharge.png'
 import chargeDashboard from "../../../public/assets/vineCharge.png"
-import Wrapper from '@/app/components/Wrapper'
-import CustomText from '@/app/components/CustomText'
-import SubHeading from '@/app/components/SubHeading'
-import InfoHeading from '@/app/components/InfoHeading'
+import Wrapper from '@/components/Wrapper'
+import CustomText from '@/components/CustomText'
+import SubHeading from '@/components/SubHeading'
+import InfoHeading from '@/components/InfoHeading'
 import Link from 'next/link'
 
 const WhyCharge = () => {

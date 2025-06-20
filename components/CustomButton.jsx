@@ -13,7 +13,6 @@ export const CustomButton = ({
   bg,
   color,
   hover,
-  onClick,
   borderRadius,
   border,
   mr,
@@ -29,11 +28,14 @@ export const CustomButton = ({
 
   const onClickHandler = (e) => {
     e.preventDefault()
-    if (type === 'submit') {
-      router.push('/')
-    } else {
-      router.push('/contact')
-    }
+   if (type === 'submit') {
+  router.push('/');
+} else if (type === 'blog') {
+  router.push('/blog/blog1');
+} else {
+  router.push('/contact');
+}
+
   }
   return (
     <Button
@@ -46,7 +48,7 @@ export const CustomButton = ({
       bg={bg || '#000'}
       color={color || '#fff'}
       _hover={{ hover }}
-      onClick={onClick || onClickHandler}
+      onClick={onClickHandler}
       borderRadius={borderRadius || '50px'}
       border={border}
       mt={mt || { lg: '10px' }}

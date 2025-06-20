@@ -1,15 +1,15 @@
-"use server"
+"use client"
 
 import { Box, Grid, Text } from '@chakra-ui/react'
 import Image from 'next/image'
-import { CustomButton } from '@/app/components/CustomButton'
+import { CustomButton } from '@/components/CustomButton'
 import o1 from '../../../public/assets/o1.svg'
 import o2 from '../../../public/assets/o2.svg'
 import o3 from '../../../public/assets/o3.svg'
-import Wrapper from '@/app/components/Wrapper'
-import CustomText from '@/app/components/CustomText'
-import ReusableForm from '@/app/components/Form'
-import SubHeading from '@/app/components/SubHeading'
+import Wrapper from '@/components/Wrapper'
+import CustomText from '@/components/CustomText'
+import ReusableForm from '@/components/Form'
+import SubHeading from '@/components/SubHeading'
 
 const Form = () => {
   return (

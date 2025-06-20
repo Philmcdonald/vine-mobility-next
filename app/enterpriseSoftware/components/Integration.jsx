@@ -1,10 +1,13 @@
+"use client"
+
+
 import { Box, Grid, Text } from '@chakra-ui/react'
 import Image from 'next/image'
 import i1 from '../../../public/assets/i1.svg'
 import i2 from '../../../public/assets/i2.svg'
 import i3 from '../../../public/assets/i3.svg'
 import i4 from '../../../public/assets/i4.svg'
-import { CustomButton } from '@/app/components/CustomButton'
+import { CustomButton } from '@/components/CustomButton'
 
 const Integration = () => {
   return (

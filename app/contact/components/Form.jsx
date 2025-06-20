@@ -1,17 +1,17 @@
-"use server"
+"use client"
 
 import { Box, Flex, Grid } from '@chakra-ui/react'
-import Navigation from '@/app/components/Nav'
+import Navigation from '@/components/Nav'
 // import {
 //   CustomText,
 //   ReusableForm,
 //   SubHeading,
 //   Wrapper,
 // } from '../../../components'
-import CustomText from '@/app/components/CustomText'
-import ReusableForm from '@/app/components/Form'
-import Wrapper from '@/app/components/Wrapper'
-import SubHeading from '@/app/components/SubHeading'
+import CustomText from '@/components/CustomText'
+import ReusableForm from '@/components/Form'
+import Wrapper from '@/components/Wrapper'
+import SubHeading from '@/components/SubHeading'
 
 const Form = () => {
   return (

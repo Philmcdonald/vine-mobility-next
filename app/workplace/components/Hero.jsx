@@ -1,15 +1,17 @@
+"use client"
+
 import { Box, Flex, Grid} from '@chakra-ui/react'
 import Image from 'next/image'
 // import Navigation from '../../../components/Nav'
-import Navigation from '@/app/components/Nav'
+import Navigation from '@/components/Nav'
 import work1 from '../../../public/assets/work1.webp'
 // import Wrapper from '../../../components/Wrapper'
-import Wrapper from '@/app/components/Wrapper'
+import Wrapper from '@/components/Wrapper'
 // import { CustomButton } from '../../../components/CustomButton'
-import { CustomButton } from '@/app/components/CustomButton'
+import { CustomButton } from '@/components/CustomButton'
 // import { CustomText, MainHeading } from '../../../components'
-import CustomText from '@/app/components/CustomText'
-import MainHeading from '@/app/components/MainHeader'
+import CustomText from '@/components/CustomText'
+import MainHeading from '@/components/MainHeader'
 
 const Hero = () => {
   return (

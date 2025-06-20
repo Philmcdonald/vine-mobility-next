@@ -3,8 +3,8 @@
 import { Box, Flex, Text } from "@chakra-ui/react";
 import Image from "next/image";
 import React from "react";
-import Navigation from "@/app/components/Nav";
-import { CustomButton } from "@/app/components/CustomButton";
+import Navigation from "@/components/Nav";
+import { CustomButton } from "@/components/CustomButton";
 import flexImg from "../../../public/assets/flexImg.jpg";
 import { useRouter } from "next/navigation"; 
 
@@ -64,7 +64,8 @@ const Hero = () => {
             </Text>
             <CustomButton
               btnText={"Read more"}
-              onClick={() => router.push('/blog/blog1')}
+              type="blog"
+              // onClick={() => router.push('/blog/blog1')}
               bg={"none"}
               color={"teal"}
               px="0px"

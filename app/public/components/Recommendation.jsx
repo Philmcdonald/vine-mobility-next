@@ -1,13 +1,15 @@
+"use client"
+
 import { Box, Flex, Grid, Text } from '@chakra-ui/react'
 import Image from 'next/image'
 import charger1 from '../../../public/assets/charger1.webp'
 import charger2 from '../../../public/assets/charger2.webp'
 import charger3 from '../../../public/assets/charger3.webp'
 import charger4 from '../../../public/assets/charger4.webp'
-import CustomText from '@/app/components/CustomText'
-import InfoHeading from '@/app/components/InfoHeading'
-import SubHeading from '@/app/components/SubHeading'
-import Wrapper from '@/app/components/Wrapper'
+import CustomText from '@/components/CustomText'
+import InfoHeading from '@/components/InfoHeading'
+import SubHeading from '@/components/SubHeading'
+import Wrapper from '@/components/Wrapper'
 
 const Recommendation = () => {
   return (
@@ -59,7 +61,7 @@ const Recommendation = () => {
             transition="transform 0.5s ease" // Smooth transition for the rotation
             _hover={{ transform: 'scale(1.1)' }} // Rotate by 90 degrees on hover
           >
-            <Image mx={'auto'} src={charger2} alt='' height={'200px'} />
+            <Image mx={'auto'} src={charger2} alt='' height={200} />
             <Text fontSize={'20px'} fontWeight={'bold'} py="10px">
               Wallbox Supernova
             </Text>
@@ -103,7 +105,7 @@ const Recommendation = () => {
             transition="transform 0.5s ease" // Smooth transition for the rotation
             _hover={{ transform: 'scale(1.1)' }} // Rotate by 90 degrees on hover
           >
-            <Image mx={'auto'} src={charger4} alt='' height={'200px'} />
+            <Image mx={'auto'} src={charger4} alt='' height={200} />
             <Text fontSize={'20px'} fontWeight={'bold'} py="10px">
               Wallbox Supernova
             </Text>

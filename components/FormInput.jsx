@@ -1,4 +1,4 @@
-"use server"
+"use client"
 
 import { FormControl, FormLabel, Input, Textarea } from "@chakra-ui/react";
 import PropTypes from "prop-types";

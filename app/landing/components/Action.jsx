@@ -1,7 +1,10 @@
+"use client"
+
+
 import { Box, Flex, Text } from '@chakra-ui/react'
 import React from 'react'
 import Image from 'next/image'
-import { CustomButton } from '@/app/components/CustomButton'
+import { CustomButton } from '@/components/CustomButton'
 
 import charger1 from "../../../public/assets/chager1.svg"
 // import charger2 from '../../../assets/charger2.svg'

@@ -1,3 +1,5 @@
+"use client"
+
 import { Box, Flex, Text } from '@chakra-ui/react'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -5,7 +7,7 @@ import MobileHamBugerNav from './MobileHamBurgerNav'
 import { CustomButton } from './CustomButton'
 import NavigationOptions from './NavigationOptions'
 import { IoLockClosedOutline } from 'react-icons/io5'
-import logoB from "../../public/assets/logoB.png"
+import logoB from "../public/assets/logoB.png"
 
 import { CustomContainer } from './Container'
 import Wrapper from './Wrapper'

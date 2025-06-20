@@ -1,8 +1,10 @@
+"use client"
+
 import { Box, Flex } from '@chakra-ui/react'
-import CustomText from '@/app/components/CustomText'
-import SubHeading from '@/app/components/SubHeading'
-import Wrapper from '@/app/components/Wrapper'
-import { CustomButton } from '@/app/components/CustomButton'
+import CustomText from '@/components/CustomText'
+import SubHeading from '@/components/SubHeading'
+import Wrapper from '@/components/Wrapper'
+import { CustomButton } from '@/components/CustomButton'
 
 const Backdrop = () => {
   return (

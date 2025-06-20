@@ -1,6 +1,8 @@
+"use client";
+
 import React from "react";
 import { Box, Text, Flex } from "@chakra-ui/react";
-import Navigation from "@/app/components/Nav";
+import Navigation from "@/components/Nav";
 import flexImg from "../../../public/assets/flexImg.jpg";
 import Image from "next/image";
 

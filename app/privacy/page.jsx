@@ -1,7 +1,9 @@
+"use client"
+
 import { Box, Text } from '@chakra-ui/react'
 // import Navigation from '../../components/Nav'
-import MainHeading from '../components/MainHeader'
-import Wrapper from '../components/Wrapper'
+import MainHeading from '../../components/MainHeader'
+import Wrapper from '../../components/Wrapper'
 import { Cookie, Driver, Privacy, Site } from './term'
 // import { Helmet } from 'react-helmet-async'
 

@@ -1,10 +1,11 @@
+"use client"
 import { Box, Grid, Text } from "@chakra-ui/react";
 import Image from "next/image";
 import { features } from "../data";
-import CustomText from "@/app/components/CustomText";
-import InfoHeading from "@/app/components/InfoHeading";
-import Wrapper from "@/app/components/Wrapper";
-import SubHeading from "@/app/components/SubHeading";
+import CustomText from "@/components/CustomText";
+import InfoHeading from "@/components/InfoHeading";
+import Wrapper from "@/components/Wrapper";
+import SubHeading from "@/components/SubHeading";
 
 const Features = () => {
   return (

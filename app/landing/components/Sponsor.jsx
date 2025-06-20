@@ -1,3 +1,5 @@
+"use client"
+
 import { Box, Flex, Grid,} from '@chakra-ui/react'
 import Image from 'next/image'
 import brand1 from '../../../public/assets/abb-logo.svg'
@@ -8,7 +10,7 @@ import brand5 from '../../../public/assets/espen-logo.svg'
 import brand6 from '../../../public/assets/eaton-logo.svg'
 import brand7 from '../../../public/assets/Polara-Logo.svg'
 import brand8 from '../../../public/assets/Wallbox-logo.svg'
-import Wrapper from '@/app/components/Wrapper'
+import Wrapper from '@/components/Wrapper'
 
 const Sponsor = () => {
   return (

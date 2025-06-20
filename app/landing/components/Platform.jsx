@@ -1,10 +1,14 @@
+"use client"
+
+
+
 import { Box, Text, Grid } from '@chakra-ui/react'
 import graphic2 from '../../../public/assets/platform.svg'
 import Image from 'next/image'
-import Wrapper from '@/app/components/Wrapper'
-import SubHeading from '@/app/components/SubHeading'
-import CustomText from '@/app/components/CustomText'
-import InfoHeading from '@/app/components/InfoHeading'
+import Wrapper from '@/components/Wrapper'
+import SubHeading from '@/components/SubHeading'
+import CustomText from '@/components/CustomText'
+import InfoHeading from '@/components/InfoHeading'
 import { platform } from '@/app/data/landing-page.data'
 
 const Platform = () => {

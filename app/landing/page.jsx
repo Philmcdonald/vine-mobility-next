@@ -1,3 +1,5 @@
+"use client";
+
 import Hero from "./components/Hero";
 import Sponsor from "./components/Sponsor";
 import { Box } from "@chakra-ui/react";

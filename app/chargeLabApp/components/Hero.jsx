@@ -2,14 +2,14 @@
 
 import { Box, Button, Flex, Grid} from '@chakra-ui/react'
 import Image from 'next/image'
-import Navigation from '@/app/components/Nav'
-import { CustomButton } from '@/app/components/CustomButton'
+import Navigation from '@/components/Nav'
+import { CustomButton } from '@/components/CustomButton'
 import logoB from '../../../public/assets/logoB.png'
 import google from '../../../public/assets/playStore.svg'
 import mobile from '../../../public/assets/mobile.png'
-import Wrapper from '@/app/components/Wrapper'
-import MainHeading from '@/app/components/MainHeader'
-import CustomText from '@/app/components/CustomText'
+import Wrapper from '@/components/Wrapper'
+import MainHeading from '@/components/MainHeader'
+import CustomText from '@/components/CustomText'
 
 const Hero = () => {
   return (

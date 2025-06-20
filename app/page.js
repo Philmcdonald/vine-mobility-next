@@ -1,5 +1,4 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+"use client";
 import { Box } from "@chakra-ui/react";
 import Landing from "./landing/page";
 

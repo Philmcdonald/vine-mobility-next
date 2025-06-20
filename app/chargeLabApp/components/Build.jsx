@@ -1,11 +1,13 @@
+"use client"
+
 import { Box, Flex,Text } from '@chakra-ui/react'
 import Image from 'next/image'
-import { CustomButton } from '@/app/components/CustomButton'
+import { CustomButton } from '@/components/CustomButton'
 import c9 from '../../../public/assets/c9.svg'
 import c10 from '../../../public/assets/c10.svg'
-import CustomText from '@/app/components/CustomText'
-import SubHeading from '@/app/components/SubHeading'
-import Wrapper from '@/app/components/Wrapper'
+import CustomText from '@/components/CustomText'
+import SubHeading from '@/components/SubHeading'
+import Wrapper from '@/components/Wrapper'
 
 const Build = () => {
   return (

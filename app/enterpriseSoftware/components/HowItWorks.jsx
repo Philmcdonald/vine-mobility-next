@@ -1,11 +1,14 @@
+"use client"
+
+
 import { Box } from '@chakra-ui/react'
 // import { Tabs, TabList, Tab } from '@chakra-ui/react'
 // import CustomText from '../../../components/CustomText'
-import CustomText from '@/app/components/CustomText'
+import CustomText from '@/components/CustomText'
 // import { SubHeading, InfoHeading, Wrapper } from '../../../components'
-import SubHeading from '@/app/components/SubHeading'
-import InfoHeading from '@/app/components/InfoHeading'
-import Wrapper from '@/app/components/Wrapper'
+import SubHeading from '@/components/SubHeading'
+import InfoHeading from '@/components/InfoHeading'
+import Wrapper from '@/components/Wrapper'
 
 const HowItWorks = () => {
   return (

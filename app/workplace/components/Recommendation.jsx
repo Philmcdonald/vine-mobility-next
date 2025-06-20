@@ -1,13 +1,15 @@
+"use client"
+
 import { Box, Flex, Grid, Text } from '@chakra-ui/react'
 import Image from 'next/image'
 import charger1 from '../../../public/assets/charger1.webp'
 import charger2 from '../../../public/assets/charger2.webp'
 import charger3 from '../../../public/assets/charger3.webp'
 import charger4 from '../../../public/assets/charger4.webp'
-import Wrapper from '@/app/components/Wrapper'
-import CustomText from '@/app/components/CustomText'
-import SubHeading from '@/app/components/SubHeading'
-import InfoHeading from '@/app/components/InfoHeading'
+import Wrapper from '@/components/Wrapper'
+import CustomText from '@/components/CustomText'
+import SubHeading from '@/components/SubHeading'
+import InfoHeading from '@/components/InfoHeading'
 
 const Recommendation = () => {
   return (

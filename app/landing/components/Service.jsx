@@ -1,6 +1,8 @@
+"use client"
+
 import { Box, Flex, Text } from '@chakra-ui/react'
-import Wrapper from '@/app/components/Wrapper'
-import CustomText from '@/app/components/CustomText'
+import Wrapper from '@/components/Wrapper'
+import CustomText from '@/components/CustomText'
 import { card } from '@/app/data/landing-page.data'
 
 

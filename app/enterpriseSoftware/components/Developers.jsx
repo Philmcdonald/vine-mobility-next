@@ -1,10 +1,11 @@
+"use client"
 import { Box, Flex, Text } from '@chakra-ui/react'
 import Image from 'next/image'
 import React from 'react'
 import d1 from '../../../public/assets/d1.svg'
 import { FaCheck } from 'react-icons/fa6'
 // import { CustomButton } from '../../../components/CustomButton'
-import { CustomButton } from '@/app/components/CustomButton'
+import { CustomButton } from '@/components/CustomButton'
 
 const Developers = () => {
   return (

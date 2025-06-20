@@ -1,17 +1,17 @@
-"use server"
+"use client"
 
 import { Box, Flex, Grid, Text } from '@chakra-ui/react'
 import Image from 'next/image'
-import { CustomButton } from '@/app/components/CustomButton'
+import { CustomButton } from '@/components/CustomButton'
 import o1 from '../../../public/assets/o1.svg'
 import o2 from '../../../public/assets/o2.svg'
 import o3 from '../../../public/assets/o3.svg'
 import o4 from '../../../public/assets/o4.svg'
 import pump from '../../../public/assets/pump.svg'
-import CustomText from '@/app/components/CustomText'
-import SubHeading from '@/app/components/SubHeading'
-import Wrapper from '@/app/components/Wrapper'
-import ReusableForm from '@/app/components/Form'
+import CustomText from '@/components/CustomText'
+import SubHeading from '@/components/SubHeading'
+import Wrapper from '@/components/Wrapper'
+import ReusableForm from '@/components/Form'
 import Link from 'next/link'
 
 const Form = () => {
@@ -39,7 +39,7 @@ const Form = () => {
               my={{ base: '20px', xl: '30px' }}
             >
               <Box>
-                <Image src={o1} alt='' height={'40' } />
+                <Image src={o1} alt='' height={40} />
                 <Text fontWeight={'bold'} py="10px">
                   EV charger management
                 </Text>
@@ -94,7 +94,7 @@ const Form = () => {
 
       <Flex bg={'#000'} justifyContent={'center'} py="30px">
        
-          <Image mx={'auto'}alt='' src={pump} height={350} />
+          <Image alt='' src={pump} height={350} />
 
       </Flex>
     </Box>

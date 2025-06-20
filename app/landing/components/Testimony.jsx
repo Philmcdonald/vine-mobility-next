@@ -1,8 +1,11 @@
+"use client"
+
+
 import { Box, Grid, Text } from '@chakra-ui/react'
-import Wrapper from '@/app/components/Wrapper'
-import CustomText from '@/app/components/CustomText'
+import Wrapper from '@/components/Wrapper'
+import CustomText from '@/components/CustomText'
 import { testimony } from '@/app/data/landing-page.data'
-import SubHeading from '@/app/components/SubHeading'
+import SubHeading from '@/components/SubHeading'
 
 const Testimony = () => {
   return (

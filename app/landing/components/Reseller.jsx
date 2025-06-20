@@ -1,10 +1,14 @@
+"use client"
+
+
+
 import { Box, Flex,  Text } from '@chakra-ui/react'
 import Image from 'next/image'
-import Wrapper from '@/app/components/Wrapper'
+import Wrapper from '@/components/Wrapper'
 import React from 'react'
-import { CustomButton } from '@/app/components/CustomButton'
+import { CustomButton } from '@/components/CustomButton'
 import graphics2 from '../../../public/assets/graphic2.svg'
-import InfoHeading from '@/app/components/InfoHeading'
+import InfoHeading from '@/components/InfoHeading'
 
 const Reseller = () => {
   return (

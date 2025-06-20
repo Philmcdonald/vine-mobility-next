@@ -1,3 +1,5 @@
+"use client"
+
 import Driver from './Driver'
 import Site from './Site'
 import Privacy from './Privacy'

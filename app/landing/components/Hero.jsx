@@ -1,10 +1,13 @@
+"use client"
+
+
 import { Box, Flex, Grid} from '@chakra-ui/react'
-import { Text } from '@/app/components/page'
+import { Text } from '@/components/pager'
 import Image from 'next/image'
-import Navigation from '@/app/components/Nav'
-import { CustomButton } from '@/app/components/CustomButton'
-import Wrapper from '@/app/components/Wrapper'
-import {MainHeading} from '@/app/components/page'
+import Navigation from '@/components/Nav'
+import { CustomButton } from '@/components/CustomButton'
+import Wrapper from '@/components/Wrapper'
+import {MainHeading} from '@/components/pager'
 import graphic1 from "../../../public/assets/graphic1.svg"
 
 import logoB from '../../../public/assets/logoB.png'
