@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import { Box } from '@chakra-ui/react'
 import Hero from './components/Hero'

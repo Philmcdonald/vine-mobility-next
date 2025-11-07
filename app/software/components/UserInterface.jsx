@@ -1,5 +1,4 @@
-"use client"
-
+'use client'
 
 import { Box, Grid, Text } from '@chakra-ui/react'
 import Image from 'next/image'
@@ -20,8 +19,8 @@ const UserInterface = () => {
         <Box maxW={'600px'}>
           <SubHeading>End-User Interfaces</SubHeading>
           <CustomText mt={{ base: '10px', xl: '20px' }}>
-            We’re big on user experience because EV charging should be simple,
-            smooth, and stress-free.
+            We’re big on user experience because EV charging should be simple, smooth, and
+            stress-free.
           </CustomText>
         </Box>
 
@@ -39,11 +38,7 @@ const UserInterface = () => {
                   height={{ base: '35px', md: '40px' }}
                   mb={{ base: '10px', md: '' }}
                 />
-                <Text
-                  py="10px"
-                  fontSize={{ base: '16px', md: '15px' }}
-                  fontWeight={'bold'}
-                >
+                <Text py="10px" fontSize={{ base: '16px', md: '15px' }} fontWeight={'bold'}>
                   {title}
                 </Text>
                 <Text fontSize={{ base: '14px', md: '14px' }}>{content}</Text>
@@ -54,21 +49,17 @@ const UserInterface = () => {
           <Box color={'#000'}>
             <Image
               src={u3}
-              alt=''
+              alt=""
               height={{ base: '38px', md: '40px' }}
               mb={{ base: '10px', md: '' }}
             />
-            <Text
-              py="10px"
-              fontSize={{ base: '16px', md: '15px' }}
-              fontWeight={'bold'}
-            >
+            <Text py="10px" fontSize={{ base: '16px', md: '15px' }} fontWeight={'bold'}>
               iOS & Android apps
             </Text>
             <Text fontSize={{ base: '14px', md: '14px' }}>
               Drive brand loyalty with a mobile application.
             </Text>
-            <Link href={'/vine-volts-app'}>
+            <Link href={'/app'}>
               <CustomButton
                 btnText={'Get the VineVolts app'}
                 color={'#8fc03f'}

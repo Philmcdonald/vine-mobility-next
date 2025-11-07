@@ -1,5 +1,5 @@
 import { Box, Flex, Grid, Text } from '@chakra-ui/react'
-import logoB from "../public/assets/logoB.png"
+import logoB from '../public/assets/logoB.png'
 import { FaFacebook } from 'react-icons/fa'
 import { BsInstagram, BsTwitter } from 'react-icons/bs'
 import { LiaLinkedin } from 'react-icons/lia'
@@ -18,7 +18,7 @@ const Footer = () => {
           templateColumns={{ base: '1fr', xl: 'repeat(3, 1fr)' }}
         >
           <Box>
-          <Image src={logoB} alt="Vine Mobility Logo" height={40} width={150} />
+            <Image src={logoB} alt="Vine Mobility Logo" height={40} width={150} />
             <Flex my="30px" align={'center'} gap={'20px'}>
               <FaFacebook size={25} />
               <BsTwitter size={25} />
@@ -34,10 +34,10 @@ const Footer = () => {
                 Products
               </Text>
               <Flex flexDir={'column'} gap={2}>
-                <Link href={'/enterprise-software'}>
+                <Link href={'/software'}>
                   <Text>Enterprise Software - VineCharge</Text>
                 </Link>
-                <Link href={'/vine-volts-app'}>
+                <Link href={'/app'}>
                   <Text>Driver&apos;s App - VineVolts</Text>
                 </Link>
               </Flex>
@@ -51,7 +51,7 @@ const Footer = () => {
                 <Link href={'/public'}>
                   <Text>Public</Text>
                 </Link>
-            <Link href={'/workplace'}>
+                <Link href={'/workplace'}>
                   <Text>Workplace</Text>
                 </Link>
               </Flex>
