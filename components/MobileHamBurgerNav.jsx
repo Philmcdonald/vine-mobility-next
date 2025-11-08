@@ -69,17 +69,10 @@ function MobileHamBugerNav({ ...props }) {
                   w="100%"
                   color="#95979b"
                 >
-                  <Text
-                    textTransform={'uppercase'}
-                    fontSize="12px"
-                    fontWeight="bold"
-                  >
+                  <Text textTransform={'uppercase'} fontSize="12px" fontWeight="bold">
                     Product
                   </Text>
-                  <Icon
-                    as={openSection === 'product' ? FaPlus : FaMinus}
-                    fontSize="12px"
-                  />
+                  <Icon as={openSection === 'product' ? FaPlus : FaMinus} fontSize="12px" />
                 </Flex>
                 <Collapse in={openSection === 'product'}>
                   <Flex
@@ -90,13 +83,10 @@ function MobileHamBugerNav({ ...props }) {
                     ml="5px"
                     fontSize="15px"
                   >
-                    <Link
-                      href="/enterprise-software"
-                      onClick={() => setShow(false)}
-                    >
+                    <Link href="/software" onClick={() => setShow(false)}>
                       <Text>Enterprise Software - VineCharge</Text>
                     </Link>
-                    <Link href="/vine-volts-app" onClick={() => setShow(false)}>
+                    <Link href="/app" onClick={() => setShow(false)}>
                       <Text>Driver's app - VineVolts</Text>
                     </Link>
                   </Flex>
@@ -113,17 +103,10 @@ function MobileHamBugerNav({ ...props }) {
                   w="100%"
                   color="#95979b"
                 >
-                  <Text
-                    textTransform={'uppercase'}
-                    fontSize="12px"
-                    fontWeight="bold"
-                  >
+                  <Text textTransform={'uppercase'} fontSize="12px" fontWeight="bold">
                     Use Cases
                   </Text>
-                  <Icon
-                    as={openSection === 'usecases' ? FaPlus : FaMinus}
-                    fontSize="13px"
-                  />
+                  <Icon as={openSection === 'usecases' ? FaPlus : FaMinus} fontSize="13px" />
                 </Flex>
                 <Collapse in={openSection === 'usecases'}>
                   <Flex

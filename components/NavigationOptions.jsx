@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-"use client"
+'use client'
 import { Box, Flex, Text } from '@chakra-ui/react'
 import { useState } from 'react'
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io'
@@ -22,19 +22,10 @@ function NavigationOptions({ title, color, iconColor }) {
         alignItems={'center'}
         cursor="pointer"
       >
-        <Text
-          color={color}
-          fontSize={'13px'}
-          fontWeight={'bold'}
-          _hover={{ color: '#ccc' }}
-        >
+        <Text color={color} fontSize={'13px'} fontWeight={'bold'} _hover={{ color: '#ccc' }}>
           {title}
         </Text>
-        {!show ? (
-          <IoIosArrowDown color={iconColor} />
-        ) : (
-          <IoIosArrowUp color={iconColor} />
-        )}
+        {!show ? <IoIosArrowDown color={iconColor} /> : <IoIosArrowUp color={iconColor} />}
       </Flex>
 
       {show && (
@@ -54,7 +45,7 @@ function NavigationOptions({ title, color, iconColor }) {
           top="20px"
           w={title.toLowerCase() === 'products' ? '300px' : '300px'}
           // boxShadow={'1px 1px 1px gray'}
-          boxShadow={"sm"}
+          boxShadow={'sm'}
           borderRadius="8px"
           justifyContent={'space-between'}
           zIndex={999}
@@ -66,20 +57,12 @@ function NavigationOptions({ title, color, iconColor }) {
               w={'100%'}
             >
               <Box w={'100%'} flex={1.5} py="10px" borderRadius={'10px'}>
-                <Text
-                  fontSize={'12px'}
-                  pb={'20px'}
-                  fontWeight={'bold'}
-                  color={'#ccc'}
-                >
+                <Text fontSize={'12px'} pb={'20px'} fontWeight={'bold'} color={'#ccc'}>
                   OVERVIEW
                 </Text>
                 <Flex color={'#000'} flexDir={'column'} gap={'20px'}>
-                  <Link href={'/enterpriseSoftware'}>
-                    <Text
-                      _hover={{ color: `#8fc03f` }}
-                      transition="all 0.3s ease"
-                    >
+                  <Link href={'/software'}>
+                    <Text _hover={{ color: `#8fc03f` }} transition="all 0.3s ease">
                       Enterprise software - VineCharge
                     </Text>
                   </Link>
@@ -87,11 +70,8 @@ function NavigationOptions({ title, color, iconColor }) {
                   <Text fontSize={'12px'} fontWeight={'bold'} color={'#ccc'}>
                     FOR EV DRIVERS
                   </Text>
-                  <Link href={'/chargeLabApp'}>
-                    <Text
-                      _hover={{ color: '#8fc03f' }}
-                      transition="all 0.3s ease"
-                    >
+                  <Link href={'/app'}>
+                    <Text _hover={{ color: '#8fc03f' }} transition="all 0.3s ease">
                       Driver&apos;s App - VineVolt App
                     </Text>
                   </Link>
@@ -100,62 +80,37 @@ function NavigationOptions({ title, color, iconColor }) {
             </Flex>
           ) : // </Flex>
           title.toLowerCase() === 'use cases' ? (
-            <Box
-              display={['none', 'none', 'none', 'block']}
-              w="100%"
-              py={'10px'}
-              h={'fit-content'}
-            >
+            <Box display={['none', 'none', 'none', 'block']} w="100%" py={'10px'} h={'fit-content'}>
               <Flex color={'#000'} flexDir={'column'} gap={'20px'}>
                 <Link href={'/public'}>
-                  <Text
-                    _hover={{ color: '#8fc03f' }}
-                    transition="all 0.3s ease"
-                  >
+                  <Text _hover={{ color: '#8fc03f' }} transition="all 0.3s ease">
                     Public{' '}
                   </Text>
                 </Link>
                 <Link href={'/workplace'}>
-                  <Text
-                    _hover={{ color: '#8fc03f' }}
-                    transition="all 0.3s ease"
-                  >
+                  <Text _hover={{ color: '#8fc03f' }} transition="all 0.3s ease">
                     WorkPlace
                   </Text>
                 </Link>
               </Flex>
             </Box>
           ) : title.toLowerCase() === 'resources' ? (
-            <Box
-              display={['none', 'none', 'none', 'block']}
-              w="100%"
-              py={'10px'}
-              h={'fit-content'}
-            >
+            <Box display={['none', 'none', 'none', 'block']} w="100%" py={'10px'} h={'fit-content'}>
               <Flex color={'#000'} flexDir={'column'} gap={'20px'}>
                 <Link href={'/about'}>
-                  <Text
-                    _hover={{ color: '#8fc03f' }}
-                    transition="all 0.3s ease"
-                  >
+                  <Text _hover={{ color: '#8fc03f' }} transition="all 0.3s ease">
                     About{' '}
                   </Text>
                 </Link>
 
                 <Link href="/blog">
-                  <Text
-                    _hover={{ color: '#8fc03f' }}
-                    transition="all 0.3s ease"
-                  >
+                  <Text _hover={{ color: '#8fc03f' }} transition="all 0.3s ease">
                     Blog
                   </Text>
                 </Link>
 
                 <Link href={'/privacy'}>
-                  <Text
-                    _hover={{ color: '#8fc03f' }}
-                    transition="all 0.3s ease"
-                  >
+                  <Text _hover={{ color: '#8fc03f' }} transition="all 0.3s ease">
                     Privacy & terms
                   </Text>
                 </Link>
@@ -170,10 +125,7 @@ function NavigationOptions({ title, color, iconColor }) {
             >
               <Flex color={'#000'} flexDir={'column'} gap={'20px'}>
                 <Link href={'/contact'}>
-                  <Text
-                    _hover={{ color: '#8fc03f' }}
-                    transition="all 0.3s ease"
-                  >
+                  <Text _hover={{ color: '#8fc03f' }} transition="all 0.3s ease">
                     Contact us
                   </Text>
                 </Link>

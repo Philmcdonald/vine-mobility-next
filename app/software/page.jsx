@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import { Box } from '@chakra-ui/react'
 import Hero from './components/Hero'
@@ -10,7 +10,7 @@ import UserInterface from './components/UserInterface'
 import GetStarted from './components/GetStarted'
 // import { Helmet } from 'react-helmet-async'
 
-const EnterpriseSofware = () => {
+const EnterpriseSoftware = () => {
   return (
     <Box>
       {/* <Helmet>
@@ -31,4 +31,4 @@ const EnterpriseSofware = () => {
   )
 }
 
-export default EnterpriseSofware
+export default EnterpriseSoftware
