@@ -1,17 +1,15 @@
-"use client"
+'use client'
 
-
-import { Box, Flex, Grid} from '@chakra-ui/react'
+import { Box, Flex, Grid } from '@chakra-ui/react'
 import { Text } from '@/components/pager'
 import Image from 'next/image'
 import Navigation from '@/components/Nav'
 import { CustomButton } from '@/components/CustomButton'
 import Wrapper from '@/components/Wrapper'
-import {MainHeading} from '@/components/pager'
-import graphic1 from "../../../public/assets/graphic1.svg"
+import { MainHeading } from '@/components/pager'
+import graphic1 from '../../../public/assets/graphic1.svg'
 
 import logoB from '../../../public/assets/logoB.png'
-
 
 const Hero = () => {
   return (
@@ -44,7 +42,7 @@ const Hero = () => {
           templateColumns={{ base: '1fr', lg: '58% 40%' }}
           textAlign={{ base: 'left' }}
           mb={{ base: '50px', lg: '150px' }}
-          gap={"50px"}
+          gap={'50px'}
         >
           <Flex
             flexDir={'column'}
@@ -55,9 +53,7 @@ const Hero = () => {
             mt={{ base: '40px', lg: '60px', xl: '50px' }}
             w={{ base: '98%', md: '100%' }}
           >
-            <MainHeading>
-              Monetize and Manage EV Charging All From One Platform.
-            </MainHeading>
+            <MainHeading>Monetize and Manage EV Charging All From One Platform.</MainHeading>
 
             <Text
               fontFamily={'Inter, sans-serif'}
@@ -72,7 +68,7 @@ const Hero = () => {
           </Flex>
 
           <Box w={{ lg: '500px' }}>
-            <Image src={graphic1}  alt=''/>
+            <Image src={graphic1} alt="" />
           </Box>
         </Grid>
       </Wrapper>

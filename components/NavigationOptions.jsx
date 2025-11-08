@@ -61,20 +61,26 @@ function NavigationOptions({ title, color, iconColor }) {
                   OVERVIEW
                 </Text>
                 <Flex color={'#000'} flexDir={'column'} gap={'20px'}>
-                  <Link href={'/software'}>
+                  {/* <Link href={'/software'}>
                     <Text _hover={{ color: `#8fc03f` }} transition="all 0.3s ease">
                       Enterprise software - VineCharge
                     </Text>
-                  </Link>
+                  </Link> */}
+                  <Text _hover={{ color: `#8fc03f` }} transition="all 0.3s ease">
+                    Enterprise software - VineCharge
+                  </Text>
 
                   <Text fontSize={'12px'} fontWeight={'bold'} color={'#ccc'}>
                     FOR EV DRIVERS
                   </Text>
-                  <Link href={'/app'}>
+                  {/* <Link href={'/app'}>
                     <Text _hover={{ color: '#8fc03f' }} transition="all 0.3s ease">
                       Driver&apos;s App - VineVolt App
                     </Text>
-                  </Link>
+                  </Link> */}
+                  <Text _hover={{ color: '#8fc03f' }} transition="all 0.3s ease">
+                    Driver&apos;s App - VineVolt App
+                  </Text>
                 </Flex>
               </Box>
             </Flex>

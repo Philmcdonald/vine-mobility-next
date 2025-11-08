@@ -14,7 +14,6 @@ import Testimony from "./components/Testimony";
 const Landing = () => {
   return (
     <Box>
-
       <Hero />
       <Sponsor />
       <Service />

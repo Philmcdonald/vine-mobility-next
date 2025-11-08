@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import { Box, Flex, Text } from '@chakra-ui/react'
 import Link from 'next/link'
@@ -7,7 +7,7 @@ import MobileHamBugerNav from './MobileHamBurgerNav'
 import { CustomButton } from './CustomButton'
 import NavigationOptions from './NavigationOptions'
 import { IoLockClosedOutline } from 'react-icons/io5'
-import logoB from "../public/assets/logoB.png"
+import logoB from '../public/assets/logoB.png'
 
 import { CustomContainer } from './Container'
 import Wrapper from './Wrapper'
@@ -66,26 +66,10 @@ const Navigation = ({
               gap={['20px', '50px']}
               color={color}
             >
-              <NavigationOptions
-                title="PRODUCTS"
-                color={color}
-                iconColor={iconColor}
-              />
-              <NavigationOptions
-                title="USE CASES"
-                color={color}
-                iconColor={iconColor}
-              />
-              <NavigationOptions
-                title="RESOURCES"
-                color={color}
-                iconColor={iconColor}
-              />
-              <NavigationOptions
-                title="CONNECT"
-                color={color}
-                iconColor={iconColor}
-              />
+              <NavigationOptions title="PRODUCTS" color={color} iconColor={iconColor} />
+              <NavigationOptions title="USE CASES" color={color} iconColor={iconColor} />
+              <NavigationOptions title="RESOURCES" color={color} iconColor={iconColor} />
+              <NavigationOptions title="CONNECT" color={color} iconColor={iconColor} />
             </Flex>
           </>
         </Box>
