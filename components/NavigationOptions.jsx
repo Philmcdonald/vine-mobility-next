@@ -116,12 +116,35 @@ function NavigationOptions({ title, color, iconColor }) {
                 </Link>
               </Flex>
             </Box>
-          ) : (
-            <Box display={['none', 'none', 'none', 'block']} w="100%" py={'10px'} h={'fit-content'}>
+          ) : title.toLowerCase() === 'connect' ? (
+            <Box
+              display={['none', 'none', 'none', 'block']}
+              w="100%"
+              py={'10px'}
+              h={'fit-content'}
+            >
               <Flex color={'#000'} flexDir={'column'} gap={'20px'}>
                 <Link href={'/contact'}>
                   <Text _hover={{ color: '#8fc03f' }} transition="all 0.3s ease">
                     Contact us
+                  </Text>
+                </Link>
+              </Flex>
+            </Box>
+          ):(
+            <Box
+              display={['none', 'none', 'none', 'block']}
+              w="100%"
+              py={'10px'}
+              h={'fit-content'}
+            >
+              <Flex color={'#000'} flexDir={'column'} gap={'20px'}>
+                <Link href={'/delete'}>
+                  <Text
+                    _hover={{ color: '#8fc03f' }}
+                    transition="all 0.3s ease"
+                  >
+                    Delete User Account
                   </Text>
                 </Link>
               </Flex>

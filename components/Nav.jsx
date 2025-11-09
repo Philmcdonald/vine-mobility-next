@@ -66,10 +66,31 @@ const Navigation = ({
               gap={['20px', '50px']}
               color={color}
             >
-              <NavigationOptions title="PRODUCTS" color={color} iconColor={iconColor} />
-              <NavigationOptions title="USE CASES" color={color} iconColor={iconColor} />
-              <NavigationOptions title="RESOURCES" color={color} iconColor={iconColor} />
-              <NavigationOptions title="CONNECT" color={color} iconColor={iconColor} />
+              <NavigationOptions
+                title="PRODUCTS"
+                color={color}
+                iconColor={iconColor}
+              />
+              <NavigationOptions
+                title="USE CASES"
+                color={color}
+                iconColor={iconColor}
+              />
+              <NavigationOptions
+                title="RESOURCES"
+                color={color}
+                iconColor={iconColor}
+              />
+              <NavigationOptions
+                title="CONNECT"
+                color={color}
+                iconColor={iconColor}
+              />
+              <NavigationOptions
+                title="DELETE ACCOUNT"
+                color={color}
+                iconColor={iconColor}
+              />
             </Flex>
           </>
         </Box>

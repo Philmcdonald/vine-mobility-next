@@ -195,7 +195,46 @@ function MobileHamBugerNav({ ...props }) {
                     </Link>
                   </Flex>
                 </Collapse>
+
+               
+               
               </Box>
+
+
+              <Box pb="10px" w="100%">
+                <Flex
+                  alignItems="center"
+                  justifyContent="space-between"
+                  cursor="pointer"
+                  onClick={() => toggleSection('delete')}
+                  w="100%"
+                  color="#95979b"
+                  fontSize="12px"
+                >
+                  <Text textTransform={'uppercase'} fontWeight="bold">
+                    Delete
+                  </Text>
+                  <Icon as={openSection === 'delete' ? FaPlus : FaMinus} />
+                </Flex>
+                <Collapse in={openSection === 'delete'}>
+                  <Flex
+                    mt="20px"
+                    ml="5px"
+                    fontSize="15px"
+                    direction="column"
+                    alignItems="flex-start"
+                    gap="15px"
+                  >
+                    <Link href="/delete" onClick={() => setShow(false)}>
+                      <Text>Delete Account</Text>
+                    </Link>
+                  </Flex>
+                </Collapse>
+
+               
+               
+              </Box>
+
             </Flex>
           </Flex>
         </Box>
