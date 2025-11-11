@@ -38,13 +38,13 @@ const page = () => {
                     <Checkbox />
                     <Text>Their services are not good enough </Text>
                 </Flex>
-                <Flex align="center" gap="10px">
+                <Flex align="center" gap="10px" my="10px">
                     <Checkbox />
                     <Text>Others</Text>
                 </Flex>
                 <Text py="10px">Send us a messge below to share your reasons</Text>
-                <Textarea />
-                <Flex>
+                <Textarea h={"200px"}/>
+                <Flex mt="20px">
                     <CustomButton btnText="Submit" />
                 </Flex>
             </Flex>

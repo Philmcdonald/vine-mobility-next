@@ -86,11 +86,11 @@ const Navigation = ({
                 color={color}
                 iconColor={iconColor}
               />
-              <NavigationOptions
+              {/* <NavigationOptions
                 title="DELETE ACCOUNT"
                 color={color}
                 iconColor={iconColor}
-              />
+              /> */}
             </Flex>
           </>
         </Box>

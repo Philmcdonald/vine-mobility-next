@@ -201,7 +201,7 @@ function MobileHamBugerNav({ ...props }) {
               </Box>
 
 
-              <Box pb="10px" w="100%">
+              {/* <Box pb="10px" w="100%">
                 <Flex
                   alignItems="center"
                   justifyContent="space-between"
@@ -233,7 +233,7 @@ function MobileHamBugerNav({ ...props }) {
 
                
                
-              </Box>
+              </Box> */}
 
             </Flex>
           </Flex>
